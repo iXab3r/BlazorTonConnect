@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk.Razor">
+
+    <PropertyGroup>
+        <TargetFramework>net7.0</TargetFramework>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <EnableDefaultContentItems>true</EnableDefaultContentItems>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <_ContentIncludedByDefault Remove="wwwroot\ts\reactInterop.tsx"/>
+        <_ContentIncludedByDefault Remove="wwwroot\ts\reteApp.tsx"/>
+        <_ContentIncludedByDefault Remove="wwwroot\ts\reteEditor.tsx"/>
+        <_ContentIncludedByDefault Remove="wwwroot\ts\reteInterop.tsx"/>
+        <_ContentIncludedByDefault Remove="wwwroot\ts\sweetAlertInterop.ts"/>
+        <_ContentIncludedByDefault Remove="wwwroot\sample-data\weather.json"/>
+        <_ContentIncludedByDefault Remove="wwwroot\css\bootstrap\bootstrap.min.css" />
+        <_ContentIncludedByDefault Remove="wwwroot\css\bootstrap\bootstrap.min.css.map" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\BlazorTonConnect\BlazorTonConnect.csproj" />
+    </ItemGroup>
+
+</Project>
