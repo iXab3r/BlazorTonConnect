@@ -53,6 +53,9 @@
         <Compile Update="BlazorReteEditor.cs">
             <DependentUpon>BlazorReteEditor.razor</DependentUpon>
         </Compile>
+        <Compile Update="TonConnectButton.cs">
+          <DependentUpon>TonConnectButton.razor</DependentUpon>
+        </Compile>
     </ItemGroup>
 
     <ItemGroup>

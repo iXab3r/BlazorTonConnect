@@ -2,7 +2,11 @@
 @page "/"
 
 Hey
+
+<button onclick="@(() => ButtonRef.OpenModal())">Open modal</button>
+
+<TonConnectButton @ref="@ButtonRef"></TonConnectButton>
+
 @code {
-
-
+    TonConnectButton? ButtonRef { get; set; }
 }
